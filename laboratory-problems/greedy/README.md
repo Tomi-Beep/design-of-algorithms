@@ -67,7 +67,7 @@ Each test contains multiple test cases:
 ### Output
 For each test case, print a single integer — the minimum value of `b[n]` among all good sequences `b`.
 
-## Problem 4: Regular Bracket Sequence
+## Problem 4: Regular Bracket Sequence - Difficulty: 1400
 A bracket sequence is called **regular** if it is possible to obtain a correct arithmetic expression by inserting characters «+» and «1» into this sequence. For example:
 - Sequences «(())()», «()», and «(()(()))» are regular.
 - Sequences «)(», «(()», and «(()))(» are not.
