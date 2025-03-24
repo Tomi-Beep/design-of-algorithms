@@ -16,6 +16,3 @@ Given a phone keypad:
  0
 ```
 A knight moves in an "L-shape" (e.g., from 1, the next digit can be 6 or 8). Count the number of n-digit numbers where every consecutive pair of digits follows a knight's move.
-
-## 5. Hidden Markov Models (Viterbi Algorithm)
-Given a sequence of observations (e.g., colors of balls drawn from boxes), a transition matrix between hidden states (boxes), and an emission matrix (probabilities of colors per box), find the most likely sequence of hidden states (boxes) that produced the observations.
