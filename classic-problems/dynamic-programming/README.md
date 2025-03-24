@@ -1,5 +1,5 @@
-# 1. Classic problems solved with Dynamic Programming
-## Coin Change Problem (Fibonacci Variant)
+# Classic problems solved with Dynamic Programming
+## 1. Coin Change Problem (Fibonacci Variant)
 
 ## 2. Theater Ticket Line Problem (Pairing Optimization)
 There are n people standing in line to buy tickets. Each person takes t_i time to buy their ticket alone. However, any two adjacent people can choose to buy tickets together as a pair, which takes p_i time (where p_i is the time for the pair (i, i+1)). Determine the minimum total time required for all people to buy their tickets, considering both individual and paired options.
