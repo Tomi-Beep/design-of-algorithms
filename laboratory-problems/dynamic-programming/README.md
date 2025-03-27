@@ -82,3 +82,48 @@ The third line of the input contains n integers h2,1,h2,2,…,h2,n (1≤h2,i≤1
 
 Output
 Print a single integer — the maximum possible total height of players in a team Demid can choose.
+
+## Problem 6: Vacations
+Vasya has n days of vacations! So he decided to improve his IT skills and do sport. Vasya knows the following information about each of these n days: whether the gym opened and whether a contest was carried out on the Internet on that day. For the i-th day, there are four options:
+
+1. On this day, the gym is closed, and the contest is not carried out.
+2. On this day, the gym is closed, and the contest is carried out.
+3. On this day, the gym is open, and the contest is not carried out.
+4. On this day, the gym is open, and the contest is carried out.
+
+On each of the days, Vasya can either have a rest, write the contest (if it is carried out on this day), or do sport (if the gym is open on this day).
+
+Find the minimum number of days on which Vasya will have a rest (it means he will not do sport or write the contest). The only limitation that Vasya has is that he does not want to do the same activity on two consecutive days. That means he will not do sport on two consecutive days, and he will not write the contest on two consecutive days.
+
+### Input
+The first line contains a positive integer n (1 ≤ n ≤ 100) — the number of days of Vasya's vacations.
+
+The second line contains the sequence of integers a₁, a₂, ..., aₙ (0 ≤ aᵢ ≤ 3) separated by space, where:
+
+- aᵢ equals 0 if, on the i-th day of vacations, the gym is closed, and the contest is not carried out.
+- aᵢ equals 1 if, on the i-th day of vacations, the gym is closed, but the contest is carried out.
+- aᵢ equals 2 if, on the i-th day of vacations, the gym is open, and the contest is not carried out.
+- aᵢ equals 3 if, on the i-th day of vacations, the gym is open, and the contest is carried out.
+
+### Output
+Print the minimum possible number of days on which Vasya will have a rest. Remember that Vasya refuses:
+- To do sport on any two consecutive days.
+- To write the contest on any two consecutive days.
+
+## Problem 7: Sleeping Schedule
+
+Vova had a pretty weird sleeping schedule. There are \( h \) hours in a day. Vova will sleep exactly \( n \) times. The \( i \)-th time he will sleep exactly after \( a_i \) hours from the time he woke up. You can assume that Vova woke up exactly at the beginning of this story (the initial time is \( 0 \)). Each time Vova sleeps exactly one day (in other words, \( h \) hours).
+
+Vova thinks that the \( i \)-th sleeping time is good if he starts to sleep between hours \( l \) and \( r \) inclusive.
+
+Vova can control himself and before the \( i \)-th time can choose between two options: go to sleep after \( a_i \) hours or after \( a_i-1 \) hours.
+
+Your task is to say the maximum number of good sleeping times Vova can obtain if he acts optimally.
+
+### Input
+The first line of the input contains four integers \( n, h, l \) and \( r \) (\( 1 \leq n \leq 2000, 3 \leq h \leq 2000, 0 \leq l \leq r < h \)) — the number of times Vova goes to sleep, the number of hours in a day, and the segment of the good sleeping time.
+
+The second line of the input contains \( n \) integers \( a_1, a_2, \dots, a_n \) (\( 1 \leq a_i < h \)), where \( a_i \) is the number of hours after which Vova goes to sleep the \( i \)-th time.
+
+### Output
+Print one integer — the maximum number of good sleeping times Vova can obtain if he acts optimally.
