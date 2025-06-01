@@ -1,6 +1,6 @@
 # Greedy Problems
 
-## Problewm 1: Minimum Varied Number - Difficulty: 800
+## Problem 1: Minimum Varied Number - Difficulty: 800
 Find the minimum number with the given sum of digits `s` such that all digits in it are distinct (i.e., all digits are unique).
 
 ### Example
@@ -166,6 +166,23 @@ You will perform operations until there is only one particle left. What is the m
 
 ### Input
 Each test contains multiple test cases. The first line contains the number of test cases t (1 ≤ t ≤ 10⁴). The description of the test cases follows.
+
+## Problem 08: People and Keys
+There are n people and k keys on a straight line. Every person wants to get to the office which is located on the line as well. To do that, he needs to reach some point with a key, take the key and then go to the office. Once a key is taken by somebody, it couldn't be taken by anybody else.
+
+You are to determine the minimum time needed for all n people to get to the office with keys. Assume that people move a unit distance per 1 second. If two people reach a key at the same time, only one of them can take the key. A person can pass through a point with a key without taking it.
+
+Input
+The first line contains three integers n, k and p (1 ≤ n ≤ 1 000, n ≤ k ≤ 2 000, 1 ≤ p ≤ 10^9) — the number of people, the number of keys and the office location.
+
+The second line contains n distinct integers a1, a2, ..., an (1 ≤ ai ≤ 10^9) — positions in which people are located initially. The positions are given in arbitrary order.
+
+The third line contains k distinct integers b1, b2, ..., bk (1 ≤ bj ≤ 10^9) — positions of the keys. The positions are given in arbitrary order.
+
+Note that there can't be more than one person or more than one key in the same point. A person and a key can be located in the same point.
+
+Output
+Print the minimum time (in seconds) needed for all n to reach the office with keys.
 
 The first line of each test case contains a single integer n (1 ≤ n ≤ 2⋅10⁵).
 
