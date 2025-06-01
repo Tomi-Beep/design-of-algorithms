@@ -37,3 +37,5 @@ RRDDR
 - Labyrinth boundaries are escape points
 - Monsters move optimally to intercept you
 - Path must be valid in worst-case monster movement scenario
+
+## Problem 2 
