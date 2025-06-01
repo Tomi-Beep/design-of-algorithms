@@ -57,6 +57,8 @@ For the first example:
 For the second example:
 - Grasshoppers at (4, 4), (8, 1), and (6, 1) are inside the cornfield.
 
+![image](https://github.com/user-attachments/assets/182018b7-cea7-42b7-a935-b154552315b1)
+
 ## Problem 02: Point in Polygon
 
 You are given a polygon of n vertices and a list of m points. Your task is to determine for each point if it is inside, outside or on the boundary of the polygon.
