@@ -11,14 +11,20 @@ You are given an undirected graph with **N** vertices and 0 edges. Process **Q**
 - \(0 \leq u, v < N\)
 
 ## Problem 2
-Nick's company employed \( n \) people. Now Nick needs to build a tree hierarchy of «supervisor-subordinate» relations in the company (this means that each employee, except one, has exactly one supervisor). There are \( m \) applications written in the following form: «employee \( a_i \) is ready to become a supervisor of employee \( b_i \) at extra cost \( c_i \)». The qualification \( q_j \) of each employee is known, and for each application the following is true: \( q_{a_i} > q_{b_i} \).
+# Problem Statement
+
+Nick's company employed n people. Now Nick needs to build a tree hierarchy of «supervisor-subordinate» relations in the company (this means that each employee, except one, has exactly one supervisor). There are m applications written in the following form: «employee a_i is ready to become a supervisor of employee b_i at extra cost c_i». The qualification q_j of each employee is known, and for each application the following is true: q_{a_i} > q_{b_i}.
 
 Would you help Nick calculate the minimum cost of such a hierarchy, or find out that it is impossible to build it?
 
 ### Input
 
-The first input line contains integer \( n \) (\( 1 \leq n \leq 1000 \)) — the number of employees in the company. The following line contains \( n \) space-separated numbers \( q_j \) (\( 0 \leq q_j \leq 10^6 \)) — the employees' qualifications. The following line contains number \( m \) (\( 0 \leq m \leq 10000 \)) — the number of received applications. The following \( m \) lines contain the applications themselves, each of them in the form of three space-separated numbers: \( a_i, b_i \) and \( c_i \) (\( 1 \leq a_i, b_i \leq n, 0 \leq c_i \leq 10^6 \)). Different applications can be similar, i.e., they can come from one and the same employee who offered to become a supervisor of the same person but at a different cost. For each application, \( q_{a_i} > q_{b_i} \).
+- The first line contains an integer n (1 ≤ n ≤ 1000) — the number of employees in the company.
+- The second line contains n space-separated integers q_j (0 ≤ q_j ≤ 10^6) — the qualifications of the employees.
+- The third line contains an integer m (0 ≤ m ≤ 10000) — the number of received applications.
+- The next m lines describe the applications. Each line contains three integers a_i, b_i, and c_i (1 ≤ a_i, b_i ≤ n, 0 ≤ c_i ≤ 10^6), meaning employee a_i can supervise employee b_i at cost c_i.  
+  Note: Different applications may repeat the same (a_i, b_i) pair with different costs. For each application, q_{a_i} > q_{b_i} holds.
 
 ### Output
 
-Output the only line — the minimum cost of building such a hierarchy, or -1 if it is impossible to build it.
+Print a single integer — the minimum cost of building the hierarchy, or -1 if it is impossible.
