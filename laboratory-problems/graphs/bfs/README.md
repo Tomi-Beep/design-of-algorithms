@@ -90,7 +90,7 @@ Bob wants to get number \( m \) on the display. What minimum number of clicks he
 
 ### Input
 
-The first and the only line of the input contains two distinct integers \( n \) and \( m \) (\( 1 \leq n, \, m \leq 10^4 \)), separated by a space.
+The first and the only line of the input contains two distinct integers \( n \) and \( m \) (1 ≤ n, m ≤ 10000), separated by a space.
 
 ### Output
 
