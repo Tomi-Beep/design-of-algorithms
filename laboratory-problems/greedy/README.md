@@ -167,7 +167,7 @@ You will perform operations until there is only one particle left. What is the m
 ### Input
 Each test contains multiple test cases. The first line contains the number of test cases t (1 ≤ t ≤ 10⁴). The description of the test cases follows.
 
-## Problem 08: People and Keys
+## Problem 8: People and Keys
 There are n people and k keys on a straight line. Every person wants to get to the office which is located on the line as well. To do that, he needs to reach some point with a key, take the key and then go to the office. Once a key is taken by somebody, it couldn't be taken by anybody else.
 
 You are to determine the minimum time needed for all n people to get to the office with keys. Assume that people move a unit distance per 1 second. If two people reach a key at the same time, only one of them can take the key. A person can pass through a point with a key without taking it.
