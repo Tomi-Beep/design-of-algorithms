@@ -39,3 +39,45 @@ RRDDR
 - Path must be valid in worst-case monster movement scenario
 
 ## Problem 2 
+Jarmtin is exploring ancient mazes that contain valuable treasures but are protected by dangerous spiky traps. He can avoid a limited number of these traps. Determine if he can retrieve the treasure and escape safely.
+
+### Input Format
+
+- **First line**: Three integers:
+  - `n` (2 ≤ n ≤ 4): Number of rows in the maze
+  - `m` (2 ≤ m ≤ 4): Width of each row
+  - `j` (0 ≤ j ≤ 20): Number of spikes Jarmtin can avoid
+- **Next `n` lines**: The maze layout where each character represents:
+  - `@`: Entrance/exit (always at least one exists)
+  - `x`: Treasure location (always exists)
+  - `#`: Wall (impassable)
+  - `-`: Safe path
+  - `s`: Spike trap (can be avoided `j` times)
+
+**Note**: The maze is surrounded by walls beyond the given grid.
+
+### Output Format
+
+- Print "SUCCESS" if Jarmtin can:
+  1. Reach the treasure (`x`)
+  2. Return to any entrance/exit (`@`)
+  3. Never exceed `j` spike encounters
+- Otherwise, print "IMPOSSIBLE"
+
+### Example
+
+#### Input:
+3 3 2
+#@#
+#s#
+#x#
+
+#### Output:
+SUCCESS
+
+### Constraints
+
+- Maze dimensions are small (2-4 rows/columns)
+- Jarmtin must enter and exit via `@` tiles
+- The entire maze perimeter is walls
+- Solution must account for optimal path to minimize spike encounters
